@@ -1,0 +1,11 @@
+.btn {
+	min-width: 5rem;
+	padding: .5rem 1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	& + .btn {
+		margin-left: 10px;
+	}
+}

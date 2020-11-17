@@ -1,0 +1,32 @@
+.modal {
+	position: absolute;
+	width: 520px;
+	background-color: #fff;
+	padding: 0 1rem;
+	font-family: sans-serif;
+	color: #49505C;
+
+	&__body {
+		text-align-last: center;
+		padding: 1rem 0;
+
+		&-question {
+			margin-top: 1rem;
+		}
+	}
+
+	&__footer {
+		padding: 2rem 0 1rem;
+		text-align: right;
+	}
+	
+	.btn {
+		background-color: #49505C;
+		color: #fff;
+	}
+
+	.close-icon::before,
+	.close-icon::after {
+		background-color: #49505C;
+	}
+}
